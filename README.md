@@ -10,11 +10,11 @@ Web tool designed for the creation, design, and visualization of domains in WRF 
 
 
 
-[Original Demo](https://jiririchter.github.io/WRFDomainWizard/)
+
 
 ## Authors
 
-* **Jiri Richter** - *Initial work* - [JiriRichter](https://github.com/JiriRichter)
+* **Jiri Richter** - *Initial work* - [JiriRichter](https://github.com/JiriRichter) - [Original Demo](https://jiririchter.github.io/WRFDomainWizard/)
 
 ## License
 

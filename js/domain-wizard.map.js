@@ -28,15 +28,15 @@ var DomainWizardMap = function (options) {
     // create a list of base layer tile providers
     persistentLayersControl = L.control.persistentLayers(
         {
-            "Esri World Topo": L.tileLayer.provider('Esri.WorldTopoMap'),
-            "Esri DeLorme": L.tileLayer.provider('Esri.DeLorme'),
-            "Esri World Street": L.tileLayer.provider('Esri.WorldStreetMap'),
-            "Esri NatGeo": L.tileLayer.provider('Esri.NatGeoWorldMap'),
-            "Esri World Imagery": L.tileLayer.provider('Esri.WorldImagery'),
-            "USGS": L.tileLayer.provider('Esri.USGS'),
+            // "Esri World Topo": L.tileLayer.provider('Esri.WorldTopoMap'),
+            // "Esri DeLorme": L.tileLayer.provider('Esri.DeLorme'),
+            // "Esri World Street": L.tileLayer.provider('Esri.WorldStreetMap'),
+            // "Esri NatGeo": L.tileLayer.provider('Esri.NatGeoWorldMap'),
+            // "Esri World Imagery": L.tileLayer.provider('Esri.WorldImagery'),
+            // "USGS": L.tileLayer.provider('Esri.USGS'),
             "Open Topo Map": L.tileLayer.provider('OpenTopoMap'),
             "Open Street Map": L.tileLayer.provider('OpenStreetMap'),
-            "Wikimedia": L.tileLayer.provider('Wikimedia')
+            // "Wikimedia": L.tileLayer.provider('Wikimedia')
         },
         null,
         {

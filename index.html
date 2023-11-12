@@ -26,13 +26,13 @@
             <ul role="tablist">
                 <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
                 <li><a href="#wps" role="tab"><i class="fas fa-vector-square"></i></a></li>
-                <li><a href="#elevation-data" role="tab"><i class="fas fa-satellite"></i></a></li>
-                <li><a href="#waypoints" role="tab"><i class="fas fa-map-marker-alt"></i></a></li>
+                <!-- <li><a href="#elevation-data" role="tab"><i class="fas fa-satellite"></i></a></li>
+                <li><a href="#waypoints" role="tab"><i class="fas fa-map-marker-alt"></i></a></li> -->
             </ul>
 
-            <ul role="tablist">
+            <!-- <ul role="tablist">
                 <li><a href="#settings" role="tab"><i class="fas fa-cog"></i></a></li>
-            </ul>
+            </ul> -->
         </div>
 
         <!-- Tab panes -->
@@ -43,24 +43,28 @@
                     <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
                 </h1>
                 <p>
-                    This page is HTML/JavaScript implementation of the <a href="https://esrl.noaa.gov/gsd/wrfportal/DomainWizard.html">WRF Preprocessing System (WPS)</a> for creating and editing namelist.wps files.
+                    Herramienta web diseñada para la creación, diseño y visualización de dominios en simulaciones con el modelo WRF. Su principal función es facilitar la configuración y análisis de dominios en el contexto de simulaciones meteorológicas, ofreciendo una alternativa moderna a herramientas como WRF Wizard Domain (versión en Java para PC). Esta herramienta permite a los usuarios definir y modificar parámetros de dominios, visualizar en tiempo real los cambios y ajustes, y exportar los diseños para su utilización en simulaciones WRF. Con un enfoque en la usabilidad y la interactividad, esta solución basada en web es accesible desde distintos dispositivos y navegadores, asegurando una experiencia de usuario coherente y eficiente.
+                    
+                </p>
+                <p>
+                    Forked from:
                 </p>
                 <p>
                     <a href="https://github.com/JiriRichter/WRFDomainWizard"><i class="fab fa-github mr-1"></i>Project Home</a>
                 </p>
             </div>
 
-            <div class="sidebar-pane" id="elevation-data">
+            <!-- <div class="sidebar-pane" id="elevation-data">
                 <h1 class="sidebar-header">Elevation Data<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
                 <div class="elevation-data-overlays">
                 </div>
                 <div class="sidebar-pane-bottom">
                     <button role="button" class="btn btn-sm btn-secondary">Clear History</button>
                 </div>
-            </div>
+            </div> -->
 
             <div class="sidebar-pane" id="wps">
-                <h1 class="sidebar-header">WPS<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+                <h1 class="sidebar-header">WPS Namelist<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
 
                 <div class="wps-top-buttons">
                     <button type="button" class="btn btn-sm btn-outline-secondary" id="button-wps-new"><i class="far fa-object-group"></i></i>New</button>
@@ -232,7 +236,7 @@
                 </div>
             </div>
 
-            <div class="sidebar-pane" id="waypoints">
+            <!-- <div class="sidebar-pane" id="waypoints">
                 <h1 class="sidebar-header">Waypoints<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
                 <div class="my-2">
                     <button type="button" class="btn btn-sm btn-outline-secondary" id="button-waypoints-remove"><i class="fas fa-trash-alt mr-1"></i>Remove All</button>
@@ -241,7 +245,7 @@
                 </div>
                 <div id="waypoints-layers" class="">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 

@@ -1,4 +1,4 @@
-![Screenshot](https://github.com/aluislfh/WRFDomainWizard-Online/assets/22013324/93ea6c70-fcd1-40f7-8a88-08f558947094)# WRF Domain Wizard 
+## WRF Domain Wizard Online
 
 ## Link:
 https://aluislfh.github.io/WRFDomainWizard-Online/
